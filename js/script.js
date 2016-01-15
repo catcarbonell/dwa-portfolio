@@ -19,19 +19,23 @@ $(document).ready(function() {
 
 	        var loadid = $(this).attr("href");
 
-	        if ($(loadid).hasClass("hide")){
-	        //var loadid = $(this).attr("loadid");
-	        
-	        //$a.attr("id", loadid);
-	        
+	        $(".slide").each(
+	        	function(){
+		        if ($(this).hasClass("active")){
+		   		
+		   		$(this).addClass('hide').removeClass('active').slideDown('slow');
 
-	        $(loadid).removeClass('hide').addClass('active').slideDown('slow');
-	        console.log(loadid + ': beep');
+		        
+		        //console.log(loadid + ': beep');
 
-	        } else {
-	        	$(loadid).addClass('hide').removeClass('active').slideDown('slow');
-	        	console.log(loadid + ': boop');
-	        }
+		        //console.log($(this).attr("href"));
+
+		        } 
+
+		     $(loadid).removeClass('hide').addClass('active').slideDown('slow');
+		        	console.log(loadid + ': boop');
+		        
+	        })
 	})
 
  // Closes Modal
