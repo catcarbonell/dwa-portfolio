@@ -1,0 +1,266 @@
+
+/*****  MOBILE/SMALL SCREEN *****/
+* {
+	margin:0; padding:0;
+}
+
+body{
+	background: #fff;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    font-weight: 200;
+    color: #333;
+}
+
+a {
+    font: 10px, Arial, sans-serif;
+    color: #618aaf;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+h1 {
+    font: 14px, 'Josefin Sans', Arial, sans-serif;
+    font-weight: 200;
+    color: #ccc;
+}
+
+h2{
+    color: #618aaf;
+}
+
+img {
+    border: 0;
+    height: auto;
+    width: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+
+#sidebar {
+    background-color: #fff;
+}
+#sidebar div{
+  margin: 15px auto;  
+}
+
+#sidebar a{
+    font-weight: 400;
+    letter-spacing: 3px;
+
+   
+}
+
+.th {
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+}
+.th:hover{
+    opacity: 1;
+}
+
+.thg {
+    width: 50%;
+    max-width: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+}
+.thg:hover{
+    opacity: 1;
+}
+
+
+
+}
+.content {
+
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.fixed {
+    position:fixed;
+    z-index: 999;
+}
+
+.top{
+    background-color: #fff;
+    position: relative;
+    z-index: 9999;
+}
+
+.inline {
+    display: inline-block;
+}
+
+/*.slide {
+    width: 100%;
+    height: 100%;
+}*/
+
+#about-desc {
+    margin: 0 auto;
+}
+
+#about-desc p {
+    color: #333;
+}
+
+#about-desc h3{
+    font-weight: 600;
+    color: #508faa;
+}
+#socialmedia li {
+    display: inline-block;
+    text-align: center;
+}
+
+#logo-name img{
+    opacity: 0.5;
+}
+
+#logo-name {
+    background-image: url('../img/logo-blue.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    opacity: 0.3;
+    height: 275px;
+}
+
+#logo-name h1{
+    font-size: 2em;
+    color: #000;
+    margin: 200px auto;
+    text-shadow: 1px 2px 1px  #fff;
+    letter-spacing: 5px;
+}
+
+/******** FORMS ********/
+input {
+    border: 1px solid #A83E55;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 6px;
+    padding: 6px;
+    color: #666;
+    font-family: 'Raleway', arial, sans-serif;
+    font-size: 1.1em; 
+    width: 25%;
+}
+
+textarea {
+    border: 1px solid #A83E55;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 6px;
+    color: #666;
+    font-family: 'Raleway', arial, sans-serif;
+    font-size: 1.2em; 
+    width: 65%;
+
+}
+
+
+
+/******** BUTTON ********/
+
+/******** MODAL/OVERLAY ********/
+
+
+.overlay {
+    
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    z-index: 999;
+}
+
+.close {
+    padding-top: 20px;
+    cursor: pointer;
+    color: #8e1a20;
+    font-weight: 100;
+    text-align: center;
+}
+
+.close:hover{
+    background-color: #8e1a20; /* RED */
+    color: #fff;
+    cursor: pointer;
+}
+
+.gal-modal {
+    overflow: hidden;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    z-index: 9999;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.hide{
+    display: none;
+}
+.active{
+    display: block;
+    overflow-x:hidden;
+}
+/* Position */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+/* FEATHERLIGHT */
+
+
+.featherlight img {    
+    max-width: 100%;
+    max-height: 100%;
+    width:auto;
+    height:auto;
+    position: relative;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: auto;
+    overflow-y:hidden;
+}
+
+@media all { 
+ .featherlight .featherlight-content {
+  padding: 0;
+  border: none;
+
+  min-width: inherit;
+ }
+
+ .featherlight .featherlight-image {
+    max-width: 100%;  
+    border: 20px solid #fff;
+ }
+}
+
+@media only screen and (max-width: 1024px) {
+ .featherlight .featherlight-content {
+  padding: 0;
+  border: none;
+ }
+}
+
+
