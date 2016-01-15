@@ -22,6 +22,6 @@ I WILL LITERALLY CUT YOU IF I FIND SOMETHING OUT OF PLACE.
 submit to your own branch, message me on Slack (__@cat__) and I will review your contribution.
 
 * When ready to upload to your branch for review, please follow the naming conventions:
-⋅⋅*   Vx.x.x '(your Slack username) - (modified features)'
+.*   Vx.x.x '(your Slack username) - (modified features)'
 
 
