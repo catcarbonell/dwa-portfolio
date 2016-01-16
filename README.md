@@ -19,7 +19,7 @@ Deployment of Web Applications 1601-01 // Professor Chris Chapman // Portfolio
   
 ## Deployment to Production for Authorized Personnel ONLY
 1. Notify team of impending deployment
-2. SSH with approved username to production server: [http://www.catcarbonell.net](http://www.catcarbonell.net)
+2. SSH with approved username to production server: [http://www.catcarbonell.net](www.catcarbonell.net)
   * ex. ssh username@www.catcarbonell.net
 3. Go to the following directory:
   * cd /var/www/dwa-portfolio/gh-pages
@@ -28,18 +28,19 @@ Deployment of Web Applications 1601-01 // Professor Chris Chapman // Portfolio
 5. Test changes and notify team of new deployment
 
 ## Branched Development and Versioning
-1. Master -- Staging -- a preview of what is to be published! Do not touch this branch. 
-If you do, that's okay, we'll...deal with it. And you.
+1. Master -- Pre-Staging -- a preview of what is to be published! Do not touch this branch without authorization. 
+If you do, that's okay. We'll...deal with it. And you.
 
-2. gh-pages -- Production -- Do **NOT** TOUCH/PUSH ANYTHING TO THIS BRANCH. 
+2. gh-pages -- Production -- Do **NOT** TOUCH/PUSH ANYTHING TO THIS BRANCH WITHOUT AUTHORIZATION. 
 I WILL LITERALLY CUT YOU IF I FIND SOMETHING OUT OF PLACE.
 
-3. Please feel free to pull from **Master**, create, and push to your own branch! When you're ready,
-submit to your own branch, message me on Slack (__@cat__) and I will review your contribution.
+3. Please feel free to pull from **Master** or **gh-pages**, create, and push to your own branch! 
+  * Please use your Slack name when creating your own branch. 
+  * When you're ready to submit to Staging, message me on Slack (__@cat__) and the team will review your contribution on your branch.
 
 4. When ready to upload to your branch for review, please utilize the current stable/production version numbers and add any features
   * *Currently _v. 1.0.1_ as of 1/15/2015*
-  * ex. v1.0.1 - Added  floatingKitten.png and th-floatingKitten.png to img/portfolio
+  * ex. of syntax: v1.0.1 - Added  floatingKitten.png and th-floatingKitten.png to img/portfolio
   
   
 ## Working Naming Conventions
