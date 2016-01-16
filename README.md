@@ -22,7 +22,7 @@ Deployment of Web Applications 1601-01 // Professor Chris Chapman // Portfolio
 2. SSH with approved username to production server: [http://www.catcarbonell.net](www.catcarbonell.net)
   * ex. ssh username@www.catcarbonell.net
 3. Go to the following directory:
-  * cd /var/www/dwa-portfolio/gh-pages
+  * cd /var/www/dwa-portfolio
 4. Run:
   * sudo git pull
 5. Test changes and notify team of new deployment
