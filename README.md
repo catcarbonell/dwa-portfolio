@@ -38,7 +38,7 @@ Deployment of Web Applications 1601-01 // Professor Chris Chapman // Portfolio
   * When you're ready to submit to Staging, message me on Slack (__@cat__) and the team will review your contribution on your branch.
 
 4. When ready to upload to your branch for review, please utilize the current stable/production version numbers and add any features
-  * *Currently _v. 1.0.1_ as of 1/16/2015*
+  * *Currently _v. 1.0.2_ as of 1/16/2015*
   * ex. of syntax: v1.0.1 - Added  floatingKitten.png and th-floatingKitten.png to img/portfolio
   
   
