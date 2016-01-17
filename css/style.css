@@ -39,10 +39,11 @@ img {
     margin: 0 auto;
 }
 
-
+/***** Sidebar *****/
 #sidebar {
     background-color: #fff;
 }
+
 #sidebar div{
   margin: 15px auto;  
 }
@@ -50,10 +51,26 @@ img {
 #sidebar a{
     font-weight: 400;
     letter-spacing: 3px;
-
-   
 }
 
+.content {
+
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+#proficiencies{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#proficiencies th, tr{
+    text-align: center;
+}
+
+/***** Thumbnail *****/
 .th {
     width: 100%;
     max-width: 100%;
@@ -77,16 +94,6 @@ img {
 }
 
 
-
-}
-.content {
-
-    background: #fff;
-    padding: 10px;
-    margin: 10px;
-}
-
-
 .fixed {
     position:fixed;
     z-index: 999;
@@ -102,10 +109,11 @@ img {
     display: inline-block;
 }
 
-/*.slide {
-    width: 100%;
-    height: 100%;
-}*/
+.slide {
+    box-shadow: 10px 10px 50px 10px #eee;
+    margin: 30px;
+    padding-bottom: 20px;
+}
 
 #about-desc {
     margin: 0 auto;
@@ -124,6 +132,8 @@ img {
     text-align: center;
 }
 
+/***** Logo *****/
+
 #logo-name img{
     opacity: 0.5;
 }
@@ -132,12 +142,14 @@ img {
     background-image: url('../img/logo-blue.png');
     background-repeat: no-repeat;
     background-position: left top;
+
     opacity: 0.3;
     height: 275px;
 }
 
 #logo-name h1{
     font-size: 2em;
+    font-weight: 400;
     color: #000;
     margin: 200px auto;
     text-shadow: 1px 2px 1px  #fff;

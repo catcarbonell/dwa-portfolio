@@ -22,17 +22,16 @@ Deployment of Web Applications 1601-01 // Professor Chris Chapman // Portfolio
 2. SSH with approved username to production server: [http://www.catcarbonell.net](www.catcarbonell.net)
   * ex. ssh username@www.catcarbonell.net
 3. Go to the following directory:
-  * cd /var/www/dwa-portfolio/gh-pages
+  * cd /var/www/dwa-portfolio
 4. Run:
   * sudo git pull
 5. Test changes and notify team of new deployment
 
 ## Branched Development and Versioning
 1. Master -- Pre-Staging -- a preview of what is to be published! Do not touch this branch without authorization. 
-If you do, that's okay. We'll...deal with it. And you.
 
 2. gh-pages -- Production -- Do **NOT** TOUCH/PUSH ANYTHING TO THIS BRANCH WITHOUT AUTHORIZATION. 
-I WILL LITERALLY CUT YOU IF I FIND SOMETHING OUT OF PLACE.
+
 
 3. Please feel free to pull from **Master** or **gh-pages**, create, and push to your own branch! 
   * Please use your Slack name when creating your own branch. 
