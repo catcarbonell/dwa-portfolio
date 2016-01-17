@@ -111,9 +111,15 @@ img {
 
 .slide {
     box-shadow: 10px 10px 50px 10px #eee;
-    margin: 30px;
+    margin: 10px auto 30px auto;
     padding-bottom: 20px;
 }
+
+.prof-head {
+    background-color: #eee;
+    padding: 5px;
+}
+
 
 #about-desc {
     margin: 0 auto;
@@ -275,6 +281,8 @@ textarea {
   padding: 0;
   border: none;
  }
+
+ 
 }
 
 
