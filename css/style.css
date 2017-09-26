@@ -10,7 +10,7 @@ body{
 	background: #fff;
     font-family: 'Josefin Sans', Arial, sans-serif;
     font-weight: 200;
-    color: #333;
+    color: #000;
 }
 
 a {
@@ -126,7 +126,7 @@ img {
 }
 
 #about-desc p {
-    color: #333;
+    color: #000;
 }
 
 #about-desc h3{
